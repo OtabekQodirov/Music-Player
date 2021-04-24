@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+
+}
+.Container{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: 1.5rem;
+    .logo{
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    transform: translateX(-100%);
+    transition: 0.5s ease-in-out;
+}
+.openLibrar{
+    transform: translateX(0);
+    transition: 0.5s ease-in-out;
+}

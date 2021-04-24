@@ -1,0 +1,18 @@
+.Player{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    .control{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        p{
+            padding: 2rem;
+            
+        }
+        input{
+            width: 100%;
+        }
+    }
+    
+}

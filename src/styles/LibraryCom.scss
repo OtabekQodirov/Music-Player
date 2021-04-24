@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Bar{
+    display: flex;
+    
+    img{
+        margin-right: 2rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+    &:hover{
+        background: rgb(225, 225, 245);
+    }
+}
